@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure Student Cloud Game</title>
+    <!-- Linking the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <h1>Azure Dodge</h1>
+        <p class="instructions">Use <b>Left</b> and <b>Right</b> arrow keys to survive!</p>
+        
+        <div class="score-board">
+            Score: <span id="currentScore">0</span>
+        </div>
+
+        <!-- The Game Canvas -->
+        <canvas id="game" width="400" height="400"></canvas>
+
+        <div class="footer">
+            <p>Deployed on <b>Azure Static Web Apps</b></p>
+        </div>
+    </div>
+
+    <!-- Linking the external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
