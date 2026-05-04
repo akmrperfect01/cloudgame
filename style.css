@@ -1,0 +1,16 @@
+body { 
+    text-align: center; 
+    background-color: #0078D4; 
+    color: white; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+canvas { 
+    background: #ffffff; 
+    display: block; 
+    margin: 20px auto; 
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+.score-board { font-size: 24px; font-weight: bold; }
